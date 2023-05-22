@@ -16,8 +16,8 @@ header #logo {
     text-align: center;
     margin: auto;
     font-size: 2.2em;
-    background-color: rgb(230, 149, 0);
-    color: rgb(163, 1, 1);
+    background-color: #e69500;
+    color: #a30101;
 }
 
 header #logo a {
@@ -31,7 +31,15 @@ header #logo a {
 
 /* Estilizando a Nav */
 
+nav {
+    text-align: center;
+    margin: auto;
+    background-color: #a30101;
+    color: white;
+}
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
+    padding: 5px;
 }
