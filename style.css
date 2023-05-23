@@ -25,6 +25,11 @@ header #logo a {
     color: inherit;
 }
 
+header #logo a:hover {
+    font-size: 1.5em;
+    transition: 1s;
+}
+
 #deck {
     color: white;
 }
@@ -42,4 +47,15 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     padding: 5px;
+    font-size: 1.2em;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: #a30101;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
 }
