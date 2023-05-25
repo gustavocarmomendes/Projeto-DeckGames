@@ -6,7 +6,11 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
-    background-color: #523500;
+}
+
+#clear {
+    position: fixed;
+    filter: blur(5px);
 }
 
       /* Estilização da Header */
@@ -19,20 +23,24 @@ header #logo {
     font-size: 2.2em;
     background-color: #e69500;
     color: #a30101;
+    position: relative;
 }
 
 header #logo a {
     text-decoration: none;
     color: inherit;
+    position: relative;
 }
 
 header #logo a:hover {
     font-size: 1.5em;
     transition: 1s;
+    position: relative;
 }
 
 #deck {
     color: white;
+    position: relative;
 }
 
        /* Estilizando a Nav */
@@ -42,6 +50,7 @@ nav {
     margin: auto;
     background-color: #a30101;
     color: white;
+    position: relative;
 }
 
 nav ul li {
@@ -49,16 +58,19 @@ nav ul li {
     list-style-type: none;
     padding: 5px;
     font-size: 1.2em;
+    position: relative;
 }
 
 nav ul li:hover {
     background-color: white;
     color: #a30101;
+    position: relative;
 }
 
 nav ul li a {
     text-decoration: none;
     color: inherit;
+    position: relative;
 }
 
         /* Main/Postagens */
@@ -71,4 +83,5 @@ nav ul li a {
     padding: 10px;
     background-color: #a30101;
     color: white;
+    position: relative;
 }
