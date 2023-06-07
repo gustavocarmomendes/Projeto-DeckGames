@@ -25,6 +25,7 @@ header #logo {
     background-color: #e69500;
     color: #a30101;
     position: relative;
+    transition: transform 0.3s;
 }
 
 header #logo a {
@@ -33,10 +34,9 @@ header #logo a {
     position: relative;
 }
 
-header #logo a:hover {
-    font-size: 1.5em;
-    transition: 1s;
+header #logo:hover {
     position: relative;
+    transform: scale(1.2);
 }
 
 #deck {
